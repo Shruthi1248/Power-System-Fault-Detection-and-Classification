@@ -12,8 +12,7 @@ Power systems are prone to various Electrical Faults that can disrupt supply and
 ## 📂 Dataset
 
 - **File**: `fault_data.csv`  
-- **Fields**: Voltage, Current, Load, Maintenance, Weather, Fault Location (Lat, Long), Fault Type  
-- **Classes**: Line Breakage, Transformer Failure, Overheating
+- **Fields**: Voltage, Current, Load, Maintenance, Weather, Fault Location (Lat, Long), Fault Type
 
 > Data was either simulated or collected from system logs and cleaned for model training.
 
@@ -22,8 +21,8 @@ Power systems are prone to various Electrical Faults that can disrupt supply and
 ## 📌 Proposed Solution
 
 1. **Data Preprocessing**  
-   - Handled missing values, noise, and normalization.
-   - Engineered features like voltage deviation and current imbalance.
+   - Handled Missing values, Noise, and Normalization.
+   - Engineered features like Voltage deviation and Current Imbalance.
 
 2. **Model Development**  
    - Used IBM Watson AutoAI to automatically train multiple models.
